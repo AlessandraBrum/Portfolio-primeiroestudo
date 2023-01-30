@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    padding: 0px;
+    text-decoration: none;
+}
+
+body,
+html {
+    font-size: 100%;
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    background: #38010e;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #38010e 0%, #000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #38010e 0%, #000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #38010e 0%, #000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38010e', endColorstr='#000', GradientType=0);
+    /* IE6-9 */
+    background-attachment: fixed;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 800px) {
+
+    .html,
+    body {
+        font-size: 2rem;
+    }
+
+    .text-on-header {
+        font-size: 2rem;
+    }
+
+    .header,
+    .card,
+    .footer {
+        width: 90%;
+    }
+
+    .header-item: {
+        font-size: 20px;
+    }
+
+}
+
+
+a:link,
+a:visited {
+    color: #ff99cc;
+    margin: 0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e6005c;
+    font-weight: bold;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0;
+}
+
+a:active {
+    color: #fff;
+    margin: 0;
+}
+
+.image {
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 40%));
+    filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 40%));
+}
+
+#btnTop {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #73585e;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid #fff;
+    border-width: 0 7px 7px 0;
+    padding: 4px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.header {
+    background-color: #73585e;
+    font-size: 150%;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-align: center;
+}
+
+.header-details {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.table-header {
+    width: 88%;
+    padding-top: 9px;
+}
+
+.text-on-header {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.image-on-header {
+    margin-left: 6rem;
+}
+
+.name-on-header {
+    font-size: 200%;
+}
+
+.th-header {
+    vertical-align: middle;
+}
+
+.td-header {
+    vertical-align: middle;
+}
+
+
+.navigation {
+    text-align: center;
+
+}
+
+.header-item {
+    font-size: 150%;
+    text-align: center;
+}
+
+.card {
+    background-color: #73585e;
+    padding: 25px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.footer {
+    background-color: #3d2d31;
+    padding: 5px;
+    width: 70%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.th,
+td {
+    vertical-align: top;
+}
+
+.footer-details {
+    margin-right: 24px;
+}
+
+.btn {
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    color: #fff;
+    background-color: #38010e;
+    padding: 10px 30px;
+    border: solid #fff 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+
+    align-items: center;
+    margin: 10px;
+}
+
+.btn:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    font-weight: bold;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #38010e;
+    border: solid 2px #fff;
+}
+
+.contact-img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1000ms;
+}
+
+.contact-img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: 1000ms;
+}
